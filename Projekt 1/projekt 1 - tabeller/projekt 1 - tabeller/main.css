@@ -1,0 +1,29 @@
+table {
+    margin: auto;
+    border: 1px black solid;
+}
+
+td {
+    border: 1px black solid;
+    padding: 25px;
+}
+
+.gul {
+    background-color: yellow;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.rosa {
+    background-color: pink;
+}
+
+.röd {
+    background-color: red;
+}
+
+.eng {
+    background-color: rgb(163, 9, 24);
+}
