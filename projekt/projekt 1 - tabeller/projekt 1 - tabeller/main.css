@@ -1,11 +1,13 @@
 table {
     margin: auto;
     border: 1px black solid;
+    border-collapse: collapse;
 }
 
 td {
     border: 1px black solid;
     padding: 25px;
+    border-width: 1px;
 }
 
 .gul {
@@ -26,4 +28,16 @@ td {
 
 .eng {
     background-color: rgb(163, 9, 24);
+}
+
+tr {
+    text-align: center;
+}
+
+.grey {
+    background-color: rgb(156, 150, 150);
+}
+
+.dag {
+    padding: 5px;
 }

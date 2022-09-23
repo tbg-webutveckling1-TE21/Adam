@@ -6,17 +6,20 @@ body {
 
 header {
     color: black;
-    font-family:'Times New Roman', Times, serif;
+    font-family:'Courier New', Courier, monospace;
     text-align: center;
+    background-color: rgb(196, 195, 189);
+    padding: 3px;
 }
 
 main {
     background-color: black;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
     padding: 10px;
+
 }
 
 main section {
@@ -32,7 +35,7 @@ main section {
 
 main section a {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     height: 100%;
     text-decoration: 0;
@@ -46,3 +49,10 @@ main section a:hover {
     border-radius: 2px;
 }
 
+img {
+    padding: 10px;
+    width: 500px;
+    height: 300px;
+}
+
+img :hover
